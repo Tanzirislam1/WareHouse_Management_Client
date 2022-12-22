@@ -1,0 +1,228 @@
+@import '../../../src/Variables/Variables.scss';
+
+.stock_update_section {
+    padding: 5rem 0;
+
+    .stock_update_texts {
+        text-align: center;
+    }
+
+    .stock_update_title {
+        font-size: 4.6rem;
+        font-weight: 700;
+    }
+
+    .stock_update_subtitle {
+        font-size: 1.8rem;
+        font-weight: 400;
+        width: 50%;
+        margin: 30px auto;
+    }
+}
+
+.stockCard {
+    width: 85%;
+    margin: 0 auto;
+    height: 95%;
+    margin-top: 5rem;
+    box-shadow: 0px 6px 10px -5px rgb(3 85 112 / 50%);
+    border-radius: 10px;
+    background-color: transparent;
+    overflow: hidden;
+    transition: all .5s ease-out;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
+    &_body {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    &_img {
+        width: 100%;
+    }
+
+    &_title {
+        font-size: 2.2rem;
+        color: #000;
+        font-weight: 600;
+    }
+
+    &_text {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: rgb(46, 46, 46);
+        margin-top: 15px;
+
+    }
+
+    &_price {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    &_suplierName {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    &_quantity {
+        margin-top: 15px;
+    }
+}
+
+.stock_update_right {
+    &_title {
+        font-size: 3.6rem;
+        font-weight: 600;
+    }
+
+    &_subtitle {
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+
+    &_quantity {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .deliverd_btn {
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(12, 12, 12);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid #000;
+        position: relative;
+        z-index: 1;
+        margin-top: 2rem;
+        background-color: transparent;
+
+        a {
+            text-decoration: none;
+            color: $blackColor;
+        }
+    }
+
+    .deliverd_btn:hover {
+        color: $whiteColor;
+        cursor: pointer;
+        border: 2px solid $primaryColor;
+    }
+
+    .deliverd_btn::before {
+        content: "";
+        transition: 0.5s all ease;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 50%;
+        left: 50%;
+        opacity: 0;
+        background-color: $primaryColor;
+    }
+
+    .deliverd_btn:hover::before {
+        transition: 0.5s all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
+    }
+
+    &_restock{
+        margin-top: 30px;
+
+        h3{
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: #000;
+        }
+
+        .restock_form{
+            margin-top: 20px;
+
+            &_input{
+                font-size: 1.8rem;
+                padding: 5px 15px 5px 15px;
+            }
+
+            &_btn{
+                font-size: 1.8rem;
+                padding: 5px 15px 5px 15px;
+            }
+        }
+    }
+}
+
+.deliverd_btn {
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(12, 12, 12);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #000;
+    position: relative;
+    z-index: 1;
+    margin-top: 2rem;
+    background-color: transparent;
+
+    a {
+        text-decoration: none;
+        color: $blackColor;
+    }
+}
+
+.manageInventory_btn {
+    width: 20%;
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(10, 10, 10);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgb(12, 12, 12);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-top: 5rem;
+}
+
+.manageInventory_btn:hover {
+    color: $whiteColor;
+    cursor: pointer;
+    border: 2px solid $primaryColor;
+}
+
+.manageInventory_btn::before {
+    content: "";
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    left: 50%;
+    opacity: 0;
+    background-color: $primaryColor;
+}
+
+.manageInventory_btn:hover::before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}

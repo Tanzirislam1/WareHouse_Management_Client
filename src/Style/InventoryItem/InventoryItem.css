@@ -1,0 +1,83 @@
+/* reuse Color */
+/* mixin */
+.card {
+  height: 95%;
+  margin-top: 5rem;
+  box-shadow: 0px 6px 10px -5px rgba(3, 85, 112, 0.5);
+  border-radius: 10px;
+  background-color: transparent;
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card_body {
+  padding: 2rem;
+  text-align: center;
+}
+.card_img {
+  width: 100%;
+  height: 25rem;
+}
+.card_title {
+  font-size: 2.2rem;
+  color: #000;
+  font-weight: 600;
+}
+.card_text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(46, 46, 46);
+  margin-top: 15px;
+}
+.card_price {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.card_suplierName {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.card_quantity {
+  margin-top: 15px;
+}
+.card .update_btn {
+  width: 100%;
+  padding: 6px 32px 6px 32px;
+  color: rgb(27, 27, 27);
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid rgb(27, 27, 27);
+  position: relative;
+  z-index: 1;
+  margin-top: 2rem;
+  background-color: transparent;
+}
+.card .update_btn:hover {
+  color: #fff;
+  border: 2px solid #8733FF;
+  cursor: pointer;
+}
+.card .update_btn::before {
+  content: "";
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 50%;
+  left: 50%;
+  opacity: 0;
+  background-color: #8733FF;
+}
+.card .update_btn:hover::before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}/*# sourceMappingURL=InventoryItem.css.map */

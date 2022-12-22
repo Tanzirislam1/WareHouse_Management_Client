@@ -1,0 +1,201 @@
+/* reuse Color */
+/* mixin */
+.stock_update_section {
+  padding: 5rem 0;
+}
+.stock_update_section .stock_update_texts {
+  text-align: center;
+}
+.stock_update_section .stock_update_title {
+  font-size: 4.6rem;
+  font-weight: 700;
+}
+.stock_update_section .stock_update_subtitle {
+  font-size: 1.8rem;
+  font-weight: 400;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.stockCard {
+  width: 85%;
+  margin: 0 auto;
+  height: 95%;
+  margin-top: 5rem;
+  box-shadow: 0px 6px 10px -5px rgba(3, 85, 112, 0.5);
+  border-radius: 10px;
+  background-color: transparent;
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+}
+.stockCard:hover {
+  transform: translateY(-10px);
+}
+.stockCard_body {
+  padding: 2rem;
+  text-align: center;
+}
+.stockCard_img {
+  width: 100%;
+}
+.stockCard_title {
+  font-size: 2.2rem;
+  color: #000;
+  font-weight: 600;
+}
+.stockCard_text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(46, 46, 46);
+  margin-top: 15px;
+}
+.stockCard_price {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.stockCard_suplierName {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.stockCard_quantity {
+  margin-top: 15px;
+}
+
+.stock_update_right_title {
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+.stock_update_right_subtitle {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.stock_update_right_quantity {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.stock_update_right .deliverd_btn {
+  padding: 6px 32px 6px 32px;
+  border: none;
+  color: rgb(12, 12, 12);
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid #000;
+  position: relative;
+  z-index: 1;
+  margin-top: 2rem;
+  background-color: transparent;
+}
+.stock_update_right .deliverd_btn a {
+  text-decoration: none;
+  color: #000;
+}
+.stock_update_right .deliverd_btn:hover {
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #8733FF;
+}
+.stock_update_right .deliverd_btn::before {
+  content: "";
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 50%;
+  left: 50%;
+  opacity: 0;
+  background-color: #8733FF;
+}
+.stock_update_right .deliverd_btn:hover::before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.stock_update_right_restock {
+  margin-top: 30px;
+}
+.stock_update_right_restock h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #000;
+}
+.stock_update_right_restock .restock_form {
+  margin-top: 20px;
+}
+.stock_update_right_restock .restock_form_input {
+  font-size: 1.8rem;
+  padding: 5px 15px 5px 15px;
+}
+.stock_update_right_restock .restock_form_btn {
+  font-size: 1.8rem;
+  padding: 5px 15px 5px 15px;
+}
+
+.deliverd_btn {
+  padding: 6px 32px 6px 32px;
+  border: none;
+  color: rgb(12, 12, 12);
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid #000;
+  position: relative;
+  z-index: 1;
+  margin-top: 2rem;
+  background-color: transparent;
+}
+.deliverd_btn a {
+  text-decoration: none;
+  color: #000;
+}
+
+.manageInventory_btn {
+  width: 20%;
+  padding: 6px 32px 6px 32px;
+  border: none;
+  color: rgb(10, 10, 10);
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid rgb(12, 12, 12);
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  background-color: transparent;
+  margin-top: 5rem;
+}
+
+.manageInventory_btn:hover {
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #8733FF;
+}
+
+.manageInventory_btn::before {
+  content: "";
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 50%;
+  left: 50%;
+  opacity: 0;
+  background-color: #8733FF;
+}
+
+.manageInventory_btn:hover::before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}/*# sourceMappingURL=StockUpdate.css.map */

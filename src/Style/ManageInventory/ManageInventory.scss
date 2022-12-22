@@ -1,0 +1,149 @@
+@import '../../../src/Variables/Variables.scss';
+
+.manage-inventory-hero {
+    background-image:
+        linear-gradient(to bottom, rgba(168, 46, 199, 0.52), rgba(19, 73, 117, 0.589)),
+        url('../../../src//image/manage-inventory.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.manage-inventory-title {
+    font-size: 4.6rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.manage-inventory-subtitle {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: white;
+    width: 62%;
+    margin: 25px auto;
+}
+
+.manage_inventories_section {
+    margin-top: 8rem;
+}
+
+.manage_inventories {
+    padding-bottom: 9rem;
+}
+
+.manage_inventories_title {
+    text-align: center;
+    font-size: 4.6rem;
+    font-weight: 600;
+}
+
+.manage_inventories_subtitle {
+    font-size: 1.8rem;
+    font-weight: 400;
+    width: 60%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+
+.manage-inventory_hero_btn {
+    width: 18%;
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: transparent;
+
+    a {
+        text-decoration: none;
+        color: $blackColor;
+    }
+}
+
+.manage-inventory_hero_btn:hover {
+    color: $whiteColor;
+    cursor: pointer;
+}
+
+.manage-inventory_hero_btn::before {
+    content: "";
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    left: 50%;
+    opacity: 0;
+    background-color: $primaryColor;
+}
+
+.manage-inventory_hero_btn:hover::before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+
+.add_new_item {
+    text-align: center;
+    margin-top: 85px;
+}
+
+.add_item_btn {
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(10, 10, 10);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgb(12, 12, 12);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-top: 5rem;
+}
+
+.add_item_btn:hover {
+    color: $whiteColor;
+    cursor: pointer;
+    border: 2px solid $primaryColor;
+}
+
+.add_item_btn::before {
+    content: "";
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    left: 50%;
+    opacity: 0;
+    background-color: $primaryColor;
+}
+
+.add_item_btn:hover::before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}

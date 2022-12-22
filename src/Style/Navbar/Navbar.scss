@@ -1,0 +1,63 @@
+@import '../../../src/Variables/Variables.scss';
+
+.navbar {
+    background-color: #8733FF;
+    padding: 16px 0;
+
+    .login_btn {
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(0, 0, 0);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+
+        a {
+            text-decoration: none;
+            color: $blackColor;
+        }
+    }
+
+    .login_btn:hover {
+        color: $whiteColor;
+        cursor: pointer;
+    }
+
+    .login_btn::before {
+        content: "";
+        transition: 0.5s all ease;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 50%;
+        left: 50%;
+        opacity: 0;
+        background-color: $primaryColor;
+    }
+
+    .login_btn:hover::before {
+        transition: 0.5s all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
+    }
+
+    .logo {
+        width: 150px;
+        height: auto;
+    }
+
+    .nav-item:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        color: $whiteColor;
+    }
+}

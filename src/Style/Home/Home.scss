@@ -1,0 +1,2445 @@
+@import '../../../src/Variables/Variables.scss';
+
+.hero-section {
+
+    &_banner {
+        background-image: url(../../../public/img/hero-bg.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+
+    &_contents {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    &_title {
+        font-size: 5.6rem;
+        font-weight: 700;
+        color: $whiteColor;
+    }
+
+    &_subtitle {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: $whiteColor;
+        width: 80%;
+        margin-top: 1.5rem;
+    }
+
+    &_btn {
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin-top: 2rem;
+        background-color: transparent;
+
+        a {
+            text-decoration: none;
+            color: $blackColor;
+        }
+    }
+
+    &_btn:hover {
+        color: $whiteColor;
+        cursor: pointer;
+    }
+
+    &_btn::before {
+        content: "";
+        transition: 0.5s all ease;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 50%;
+        left: 50%;
+        opacity: 0;
+        background-color: $primaryColor;
+    }
+
+    &_btn:hover::before {
+        transition: 0.5s all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
+    }
+
+}
+
+.inventory-items {
+    margin-top: 100px;
+
+    &_title {
+        font-size: 3.6rem;
+        font-weight: 500;
+    }
+
+    &_subtitle {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #000;
+        width: 50%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+    }
+
+    &_btn {
+        width: 20%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(10, 10, 10);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(12, 12, 12);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        background-color: transparent;
+        margin-top: 9rem;
+    }
+
+    &_btn:hover {
+        color: $whiteColor;
+        cursor: pointer;
+        border: 2px solid $primaryColor;
+    }
+
+    &_btn::before {
+        content: "";
+        transition: 0.5s all ease;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 50%;
+        left: 50%;
+        opacity: 0;
+        background-color: $primaryColor;
+    }
+
+    &_btn:hover::before {
+        transition: 0.5s all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
+    }
+}
+
+.our-collection {
+    margin-top: 60px;
+
+    &-title {
+        font-size: 3.6rem;
+        font-weight: 600;
+        text-align: center;
+        color: #000;
+    }
+
+    .cars-img {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+}
+
+.our_service {
+    margin-top: 80px;
+
+    &-title {
+        font-size: 3.6rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    &-subtitle {
+        font-size: 1.8rem;
+        font-weight: 400;
+        width: 50%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .services {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+
+    .service-1 h3 {
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .service-1 p {
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .service-2 {
+        margin-top: 40px;
+    }
+
+    .service-2 h3 {
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .service-2 p {
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .service-img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        margin-left: 5px;
+    }
+
+    .service-3 h3 {
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .service-3 p {
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .service-4 {
+        margin-top: 40px;
+    }
+
+    .service-4 h3 {
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .service-4 p {
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+}
+
+.brand-logo-section {
+    margin-top: 80px;
+
+    .brand-title {
+        font-size: 3.6rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .brand-subtitle {
+        font-size: 1.8rem;
+        font-weight: 400;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+        animation: scroll 30s linear infinite;
+    }
+
+    .slide-track {
+        width: 100%;
+        display: flex;
+        gap: 5em;
+        overflow: hidden;
+    }
+
+    .slider {
+        padding: 7em 2em;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-1000%)
+        }
+    }
+}
+
+// responsive breakpoints
+
+
+
+@media screen and (min-width:1800px) and (max-width:1920px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    .navbar .nav-link {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .hero-section_title {
+        font-size: 5.6rem;
+        font-weight: 700;
+        color: #fff;
+        width: 77%;
+    }
+
+    .hero-section_banner {
+        background-image: url(http://localhost:3000/static/media/hero-bg.b686d3eb645d93ce264c.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+        overflow-y: hidden;
+    }
+
+    .hero-section_contents {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        height: 90vh;
+    }
+
+    .hero-section_subtitle {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #fff;
+        width: 70%;
+        margin-top: 1.5rem;
+    }
+
+    .inventory-items_title {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .inventory-items_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 44%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .inventory-items a {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .card_img {
+        width: 100%;
+        height: 35rem;
+    }
+
+    .inventory-items_btn {
+        width: 35%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(10, 10, 10);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(12, 12, 12);
+        position: relative;
+        z-index: 1;
+        background-color: transparent;
+        margin-top: 9rem;
+    }
+
+    .our_service-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .our_service-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 50%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .footer-logo {
+        width: 25.5rem !important;
+        height: 7.5rem !important;
+    }
+
+    .about-title {
+        font-weight: 700;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+
+    .about-sub-titles p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    .help-title {
+        font-weight: 500;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+    }
+
+    .help-sub-titles p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    .mail-btn {
+        background: #EFE904;
+        border-radius: 0px 12px 12px 0px;
+        border: 1px solid #E4E4E4;
+        width: 30% !important;
+        font-weight: 600;
+        font-size: 16px;
+        color: #000;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .payment-img {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:1600px) and (max-width:1799px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 59.5%;
+    }
+
+    .navbar .nav-link {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .hero-section_title {
+        font-size: 5.6rem;
+        font-weight: 700;
+        color: #fff;
+        width: 75%;
+    }
+
+    .hero-section_banner {
+        background-image: url(http://localhost:3000/static/media/hero-bg.b686d3eb645d93ce264c.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+        overflow-y: hidden;
+    }
+
+    .hero-section_contents {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        height: 90vh;
+    }
+
+    .hero-section_subtitle {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #fff;
+        width: 65%;
+        margin-top: 1.5rem;
+    }
+
+    .inventory-items_title {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .inventory-items_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 44%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .inventory-items a {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .card_img {
+        width: 100%;
+        height: 35rem;
+    }
+
+    .inventory-items_btn {
+        width: 35%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(10, 10, 10);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(12, 12, 12);
+        position: relative;
+        z-index: 1;
+        background-color: transparent;
+        margin-top: 9rem;
+    }
+
+    .our_service-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .our_service-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 50%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .footer-logo {
+        width: 25.5rem !important;
+        height: 7.5rem !important;
+    }
+
+    .about-title {
+        font-weight: 700;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+
+    .about-sub-titles p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    .help-title {
+        font-weight: 500;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+    }
+
+    .help-sub-titles p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    .mail-btn {
+        background: #EFE904;
+        border-radius: 0px 12px 12px 0px;
+        border: 1px solid #E4E4E4;
+        width: 30% !important;
+        font-weight: 600;
+        font-size: 16px;
+        color: #000;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .payment-img {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:1400px) and (max-width:1599px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 57.5%;
+    }
+
+    .navbar .nav-link {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .hero-section_title {
+        font-size: 5.6rem;
+        font-weight: 700;
+        color: #fff;
+        width: 75%;
+    }
+
+    .hero-section_banner {
+        background-image: url(http://localhost:3000/static/media/hero-bg.b686d3eb645d93ce264c.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+        overflow-y: hidden;
+    }
+
+    .hero-section_contents {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        height: 90vh;
+    }
+
+    .hero-section_subtitle {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #fff;
+        width: 80%;
+        margin-top: 1.5rem;
+    }
+
+    .inventory-items_title {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .inventory-items_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 44%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .inventory-items a {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .card_img {
+        width: 100%;
+        height: 35rem;
+    }
+
+    .inventory-items_btn {
+        width: 35%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(10, 10, 10);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(12, 12, 12);
+        position: relative;
+        z-index: 1;
+        background-color: transparent;
+        margin-top: 9rem;
+    }
+
+    .our_service-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .our_service-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 50%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .footer-logo {
+        width: 25.5rem !important;
+        height: 7.5rem !important;
+    }
+
+    .about-title {
+        font-weight: 700;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+
+    .about-sub-titles p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    .help-title {
+        font-weight: 500;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+    }
+
+    .help-sub-titles p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    .mail-btn {
+        background: #EFE904;
+        border-radius: 0px 12px 12px 0px;
+        border: 1px solid #E4E4E4;
+        width: 30% !important;
+        font-weight: 600;
+        font-size: 16px;
+        color: #000;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .payment-img {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 55.5%;
+    }
+
+    .navbar .nav-link {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .hero-section_title {
+        font-size: 5.6rem;
+        font-weight: 700;
+        color: #fff;
+        width: 88%;
+    }
+
+    .hero-section_banner {
+        background-image: url(http://localhost:3000/static/media/hero-bg.b686d3eb645d93ce264c.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+        overflow-y: hidden;
+    }
+
+    .hero-section_contents {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        height: 90vh;
+    }
+
+    .hero-section_subtitle {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #fff;
+        width: 80%;
+        margin-top: 1.5rem;
+    }
+
+    .inventory-items_title {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .inventory-items_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 50%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .inventory-items a {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .inventory-items_btn {
+        width: 45%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(10, 10, 10);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(12, 12, 12);
+        position: relative;
+        z-index: 1;
+        background-color: transparent;
+        margin-top: 9rem;
+    }
+
+    .our_service-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .our_service-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 60%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .footer-logo {
+        width: 25.5rem !important;
+        height: 7.5rem !important;
+    }
+
+    .about-title {
+        font-weight: 700;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+
+    .about-sub-titles p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    .help-title {
+        font-weight: 500;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+    }
+
+    .help-sub-titles p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    .mail-btn {
+        background: #EFE904;
+        border-radius: 0px 12px 12px 0px;
+        border: 1px solid #E4E4E4;
+        width: 30% !important;
+        font-weight: 600;
+        font-size: 16px;
+        color: #000;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .payment-img {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:1020px) and (max-width:1199px) {
+    .container {
+        padding: 0 4rem;
+        max-width: 1150px;
+    }
+
+    html {
+        font-size: 55.5%;
+    }
+
+    .navbar .nav-link {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .hero-section_title {
+        font-size: 5.6rem;
+        font-weight: 700;
+        color: #fff;
+        width: 88%;
+    }
+
+    .hero-section_banner {
+        background-image: url(http://localhost:3000/static/media/hero-bg.b686d3eb645d93ce264c.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+        overflow-y: hidden;
+    }
+
+    .hero-section_contents {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        height: 70vh;
+    }
+
+    .hero-section_subtitle {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #fff;
+        width: 80%;
+        margin-top: 1.5rem;
+    }
+
+    .inventory-items_title {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .inventory-items_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 50%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .inventory-items a {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .inventory-items_btn {
+        width: 45%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(10, 10, 10);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(12, 12, 12);
+        position: relative;
+        z-index: 1;
+        background-color: transparent;
+        margin-top: 9rem;
+    }
+
+    .our_service-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .our_service-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 60%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .footer-logo {
+        width: 25.5rem !important;
+        height: 7.5rem !important;
+    }
+
+    .about-title {
+        font-weight: 700;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+
+    .about-sub-titles p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    .help-title {
+        font-weight: 500;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+    }
+
+    .help-sub-titles p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    .mail-btn {
+        background: #EFE904;
+        border-radius: 0px 12px 12px 0px;
+        border: 1px solid #E4E4E4;
+        width: 30% !important;
+        font-weight: 600;
+        font-size: 16px;
+        color: #000;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .payment-img {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1019px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 53.5%;
+    }
+
+    .navbar .nav-link {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .hero-section_banner {
+        background-image: url(http://localhost:3000/static/media/hero-bg.b686d3eb645d93ce264c.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+        overflow-y: hidden;
+    }
+
+    .hero-section_contents {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        height: 70vh;
+    }
+
+    .hero-section_subtitle {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #fff;
+        width: 85%;
+        margin-top: 1.5rem;
+    }
+
+    .inventory-items_title {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .inventory-items_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 50%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .inventory-items a {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .inventory-items_btn {
+        width: 45%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(10, 10, 10);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(12, 12, 12);
+        position: relative;
+        z-index: 1;
+        background-color: transparent;
+        margin-top: 9rem;
+    }
+
+    .our_service-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .our_service-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 60%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .footer-logo {
+        width: 25.5rem !important;
+        height: 7.5rem !important;
+    }
+
+    .about-title {
+        font-weight: 700;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+
+    .about-sub-titles p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    .help-title {
+        font-weight: 500;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+    }
+
+    .help-sub-titles p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+
+    .mail-btn {
+        background: #EFE904;
+        border-radius: 0px 12px 12px 0px;
+        border: 1px solid #E4E4E4;
+        width: 34% !important;
+        font-weight: 600;
+        font-size: 16px;
+        color: #000;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .payment-img {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .container {
+        padding: 0 4rem;
+        max-width: 945px;
+    }
+
+    html {
+        font-size: 50.5%;
+    }
+
+    .hero-section_banner {
+        background-image: url(http://localhost:3000/static/media/hero-bg.b686d3eb645d93ce264c.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 80vh;
+        overflow-y: hidden;
+    }
+
+    .hero-section_contents {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        height: 80vh;
+    }
+
+    .hero-section_title {
+        font-size: 5.6rem;
+        font-weight: 700;
+        color: #fff;
+        width: 55%;
+    }
+
+    .hero-section_subtitle {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #fff;
+        width: 48%;
+        margin-top: 2.5rem;
+    }
+
+    .hero-section_btn {
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin-top: 3rem;
+        background-color: transparent;
+    }
+
+    .inventory-items_title {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .inventory-items_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 68%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .card {
+        height: 96%;
+        margin-top: 5rem;
+        box-shadow: 0px 6px 10px -5px rgba(3, 85, 112, 0.5);
+        border-radius: 10px;
+        background-color: transparent;
+        overflow: hidden;
+        transition: all 0.5s ease-out;
+    }
+
+    .card_img {
+        width: 100%;
+        height: 35rem;
+    }
+
+    .card_body {
+        padding: 4rem;
+        text-align: center;
+    }
+
+    .card_title {
+        font-size: 2.8rem;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .card_text {
+        font-size: 2rem;
+        font-weight: 400;
+        color: rgb(46, 46, 46);
+        margin-top: 15px;
+    }
+
+    .card_price {
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .card_suplierName {
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .card_quantity {
+        margin-top: 15px;
+        font-size: 2.2rem;
+    }
+
+    .inventory-items a {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .inventory-items_btn {
+        width: 55%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(10, 10, 10);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(12, 12, 12);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        background-color: transparent;
+        margin-top: 9rem;
+    }
+
+    .our-collection {
+        margin-top: 30px;
+    }
+
+    .our_service {
+        margin-top: 50px;
+    }
+
+    .our_service-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .our_service-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 65%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .our_service .services {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .service-1 {
+        text-align: center;
+    }
+
+    .our_service .service-1 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-1 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 48%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .service-2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .our_service .service-2 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-2 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .our_service .service-img {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        margin-top: 40px;
+    }
+
+    .service-3 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .our_service .service-3 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-3 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .service-4 {
+        text-align: center;
+    }
+
+    .our_service .service-4 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-4 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 55%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .brand-logo-section .brand-title {
+        font-size: 3.2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 55%;
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .footer-about-us {
+        margin-top: 30px;
+    }
+
+    .footer-logo {
+        width: 25.5rem !important;
+        height: 7.5rem !important;
+    }
+
+    .footer-help-us {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .email-group {
+        margin-top: 3rem;
+        width: 55%;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .payment-img {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .container {
+        padding: 0 4rem;
+        max-width: 720px;
+    }
+
+    html {
+        font-size: 47.5%;
+    }
+
+    .hero-section_banner {
+        background-image: url(http://localhost:3000/static/media/hero-bg.b686d3eb645d93ce264c.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 80vh;
+        overflow-y: hidden;
+    }
+
+    .hero-section_contents {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        height: 80vh;
+    }
+
+    .hero-section_title {
+        font-size: 5.6rem;
+        font-weight: 700;
+        color: #fff;
+        width: 68%;
+    }
+
+    .hero-section_subtitle {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #fff;
+        width: 60%;
+        margin-top: 2.5rem;
+    }
+
+    .hero-section_btn {
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin-top: 3rem;
+        background-color: transparent;
+    }
+
+    .inventory-items_title {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .inventory-items_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 80%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .card {
+        height: 96%;
+        margin-top: 5rem;
+        box-shadow: 0px 6px 10px -5px rgba(3, 85, 112, 0.5);
+        border-radius: 10px;
+        background-color: transparent;
+        overflow: hidden;
+        transition: all 0.5s ease-out;
+    }
+
+    .card_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card_body {
+        padding: 4rem;
+        text-align: center;
+    }
+
+    .card_title {
+        font-size: 3.2rem;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .card_text {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: rgb(46, 46, 46);
+        margin-top: 15px;
+    }
+
+    .card_price {
+        font-size: 2.6rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .card_suplierName {
+        font-size: 2.4rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .card_quantity {
+        margin-top: 15px;
+        font-size: 2.4rem;
+    }
+
+    .inventory-items_btn {
+        width: 40%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(10, 10, 10);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(12, 12, 12);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        background-color: transparent;
+        margin-top: 9rem;
+    }
+
+    .our-collection {
+        margin-top: 30px;
+    }
+
+    .our_service {
+        margin-top: 50px;
+    }
+
+    .our_service-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .our_service-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 70%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .our_service .services {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .service-1 {
+        text-align: center;
+    }
+
+    .our_service .service-1 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-1 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .service-2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .our_service .service-2 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-2 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .our_service .service-img {
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        margin-top: 35px;
+    }
+
+    .service-3 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .our_service .service-3 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-3 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 68%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .service-4 {
+        text-align: center;
+    }
+
+    .our_service .service-4 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-4 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .brand-logo-section .brand-title {
+        font-size: 3.2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 78%;
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .footer-about-us {
+        margin-top: 30px;
+    }
+
+    .footer-logo {
+        width: 25.5rem !important;
+        height: 7.5rem !important;
+    }
+
+    .footer-help-us {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .email-group {
+        margin-top: 3rem;
+        width: 75%;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .payment-img {
+        width: 60%;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width:575px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 43.5%;
+    }
+
+    .hero-section_banner {
+        background-image: url(http://localhost:3000/static/media/hero-bg.b686d3eb645d93ce264c.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+        overflow-y: hidden;
+    }
+
+    .hero-section_contents {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        height: 90vh;
+    }
+
+    .hero-section_title {
+        font-size: 4.6rem;
+        font-weight: 700;
+        color: #fff;
+        width: 65%;
+    }
+
+    .hero-section_subtitle {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #fff;
+        width: 70%;
+        margin-top: 2.5rem;
+    }
+
+    .hero-section_btn {
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin-top: 3rem;
+        background-color: transparent;
+    }
+
+    .inventory-items_title {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .inventory-items_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 80%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .card {
+        height: 96%;
+        margin-top: 5rem;
+        box-shadow: 0px 6px 10px -5px rgba(3, 85, 112, 0.5);
+        border-radius: 10px;
+        background-color: transparent;
+        overflow: hidden;
+        transition: all 0.5s ease-out;
+    }
+
+    .card_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card_title {
+        font-size: 3.2rem;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .card_text {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: rgb(46, 46, 46);
+        margin-top: 15px;
+    }
+
+    .card_price {
+        font-size: 2.6rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .card_suplierName {
+        font-size: 2.4rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .card_quantity {
+        margin-top: 15px;
+        font-size: 2.4rem;
+    }
+
+    .inventory-items_btn {
+        width: 40%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(10, 10, 10);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(12, 12, 12);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        background-color: transparent;
+        margin-top: 9rem;
+    }
+
+    .our-collection {
+        margin-top: 30px;
+    }
+
+    .our_service {
+        margin-top: 50px;
+    }
+
+    .our_service-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .our_service-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .our_service .services {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .service-1 {
+        text-align: center;
+    }
+
+    .our_service .service-1 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-1 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .service-2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .our_service .service-2 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-2 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .our_service .service-img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        margin-top: 35px;
+    }
+
+    .service-3 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .our_service .service-3 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-3 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 68%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .service-4 {
+        text-align: center;
+    }
+
+    .our_service .service-4 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-4 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .brand-logo-section .brand-title {
+        font-size: 3.2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 78%;
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .footer-about-us {
+        margin-top: 30px;
+    }
+
+    .footer-logo {
+        width: 25.5rem !important;
+        height: 7.5rem !important;
+    }
+
+    .footer-help-us {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .email-group {
+        margin-top: 3rem;
+        width: 75%;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .payment-img {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (min-width:375px) and (max-width:479px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 43.5%;
+    }
+
+    .hero-section_banner {
+        background-image: url(http://localhost:3000/static/media/hero-bg.b686d3eb645d93ce264c.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+        overflow-y: hidden;
+    }
+
+    .hero-section_contents {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        height: 90vh;
+    }
+
+    .hero-section_title {
+        font-size: 4.6rem;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .hero-section_subtitle {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #fff;
+        width: 80%;
+        margin-top: 2.5rem;
+    }
+
+    .hero-section_btn {
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin-top: 3rem;
+        background-color: transparent;
+    }
+
+    .inventory-items_title {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .inventory-items_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 100%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .card_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card_title {
+        font-size: 3.2rem;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .card_text {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: rgb(46, 46, 46);
+        margin-top: 15px;
+    }
+
+    .card_price {
+        font-size: 2.6rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .card_suplierName {
+        font-size: 2.4rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .card_quantity {
+        margin-top: 15px;
+        font-size: 2.4rem;
+    }
+
+    .inventory-items_btn {
+        width: 60%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(10, 10, 10);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(12, 12, 12);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        background-color: transparent;
+        margin-top: 9rem;
+    }
+
+    .our-collection {
+        margin-top: 30px;
+    }
+
+    .our_service {
+        margin-top: 50px;
+    }
+
+    .our_service-title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .our_service-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .our_service .service-1 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-1 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .service-2 {
+        margin-top: 20px;
+    }
+
+    .our_service .service-2 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-2 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .our_service .service-img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        margin-top: 35px;
+    }
+
+    .service-3 {
+        margin-top: 40px;
+    }
+
+    .our_service .service-3 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-3 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .our_service .service-4 h3 {
+        font-size: 3.2rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .our_service .service-4 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .brand-logo-section .brand-title {
+        font-size: 3.2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .brand-logo-section .brand-subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        width: 78%;
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .footer-about-us {
+        margin-top: 30px;
+    }
+
+    .footer-logo {
+        width: 25.5rem !important;
+        height: 7.5rem !important;
+    }
+
+    .footer-help-us {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .payment-img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}

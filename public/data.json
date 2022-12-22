@@ -1,0 +1,98 @@
+[
+    {
+        "image": "https://ibb.co/CMT7ZsC",
+        "name": "Porsche 911 carrera",
+        "description": "The Coupé version of the 911 embodies Porsche DNA in its purest form: the long, flat bonnet, the steeply inclined windscreen. And the roof line that slopes gently down towards the rear.",
+        "price": 92000,
+        "quantity": 1,
+        "suplierName": "Ferdinand Butzi Porsche"
+    },
+    {
+        "image": "https://i.ibb.co/HDXwHqH/3.jpg",
+        "name": "Ford Shelby GT500",
+        "description": "The GT500 nameplate was first used in 1967 when Carroll Shelby stuffed a massive V-8 in a Mustang, and it has adorned the ultimate Mustang in generations since.",
+        "price": 117000,
+        "quantity": 2,
+        "suplierName": "Ford Motor Company"
+    },
+    {
+        "image": "https://i.ibb.co/LvndXth/6.jpg",
+        "name": "McLaren F1",
+        "description": "The McLaren F1 is a sports car designed and manufactured by British automobile manufacturer McLaren Cars, and powered by the BMW S70/2 V12 engine. conceived by Gordon Murray.",
+        "price": 77000,
+        "quantity": 3,
+        "suplierName": " British automobile manufacturer "
+    },
+    {
+        "image": "https://i.ibb.co/BTbtwMq/3.jpg",
+        "name": "Audi R8",
+        "description": "Audi R8 is a good car. All models come with a throaty V10 engine that provides hair-raising acceleration and gobs of power. The R8 has impressive handling and a smooth ride.",
+        "price": 77000,
+        "quantity": 4,
+        "suplierName": " BSunMotors "
+    },
+    {
+        "image": "https://i.ibb.co/LQzLpTJ/14.jpg",
+        "name": "Bugatti Veyron",
+        "description": "The Super Sport version of the Veyron is one of the fastest street-legal production cars in the world, with a top speed of 431.072 km/h (267.856 mph).The Bugatti has impressive handling.",
+        "price": 999000,
+        "quantity": 5,
+        "suplierName": " Germany Volkswagen "
+    },
+    {
+        "image": "https://i.ibb.co/6gYQFfz/8.jpg",
+        "name": "Honda Civic Sports",
+        "description": "After a complete redesign just last year, the 2017 Honda Civic is back with a few key additions. A hatchback variant has been added to the lineup, and the available turbocharged engine.",
+        "price": 205000,
+        "quantity": 6,
+        "suplierName": "Honda Civic Hatchback"
+    },
+    {
+        "image": "https://i.ibb.co/YLLnXN9/maxresdefault.jpg",
+        "name": "BMW 7 Series",
+        "description": "The more powerful M850i, which includes a twin-turbo V-8 and standard all-wheel drive, means a significant reduction in EPA fuel-economy ratings versus.",
+        "price": 55000,
+        "quantity": 7,
+        "suplierName": "SMP Automotive"
+    },
+    {
+        "image": "https://i.ibb.co/8jKzt1S/audi3.jpg",
+        "name": "Audi A8 4-door silver",
+        "description": " Audi A8 is a full-size luxury sedan manufactured and marketed by the German automaker, Audi A8 4-door sedan silver. 2021 Mesi. Sedan Diesel,, Germany built a two-door Audi A8 Coupé.",
+        "price": 75000,
+        "quantity": 8,
+        "suplierName": "German automaker"
+    },
+    {
+        "image": "https://i.ibb.co/rdCYY7F/2-4.jpg",
+        "name": "Mercedes-Benz AMG",
+        "description": " The high-performance composite brake system of the Mercedes-AMG GT is characterised by excellent deceleration values, precise sensitivity and high fading resistance.",
+        "price": 77000,
+        "quantity": 9,
+        "suplierName": "automotive companies"
+    },
+    {
+        "image": "https://i.ibb.co/MG89sSn/db53c6de1eaf9b9e438de5b5d402b839.png",
+        "name": "Ferrari LaFerrari",
+        "description": " The performance figures of the Ferrari LaFerrari set a new standard for road cars. The 0-62mph sprint takes “less than three seconds”, 0-124mph takes “under seven seconds” and it can lap Ferrari’s Fiorano.",
+        "price": 89000,
+        "quantity": 10,
+        "suplierName": "Italian automotive"
+    },
+    {
+        "image": "https://i.ibb.co/p3dQ1pg/R34-GTR-import-price-800px.jpg",
+        "name": "R34 GTR",
+        "description": " It featured a twin-turbo, individual throttle body for all the six pistons, water-cooled ceramic turbochargers with ball-bearings and the list can go on,  with a limited-slip rear differential",
+        "price": 90000,
+        "quantity": 11,
+        "suplierName": "Beli Nissan"
+    },
+    {
+        "image": "https://i.ibb.co/4fTVSDQ/2023-Range-Rover-Sport-2-e1652258545141-1.jpg",
+        "name": "Range Rover Sport",
+        "description": " From focused on-road performance and world-renowned all-terrain capability, a host of exciting and innovative technologies make Range Rover Sport the definition of sporting luxury.The Rover has impressive handling.",
+        "price": 95000,
+        "quantity": 12,
+        "suplierName": "Land Rover"
+    }
+]
