@@ -200,6 +200,529 @@
   z-index: -1;
 }
 
+@media screen and (min-width: 1800px) and (max-width: 1920px) {
+  .container {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  .stock_update_section .stock_update_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    width: 50%;
+    margin: 30px auto;
+  }
+  .manageInventory_btn {
+    width: 20%;
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(10, 10, 10);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgb(12, 12, 12);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-top: 8rem;
+  }
+  .stock_update_right_title {
+    font-size: 3.6rem;
+    font-weight: 600;
+    width: 68%;
+  }
+  .stock_update_right_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 90%;
+  }
+  .copyright-text {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .payment-img {
+    width: 35% !important;
+    margin-top: 0 !important;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1799px) {
+  .container {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 59.5%;
+  }
+  .stock_update_section .stock_update_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    width: 50%;
+    margin: 30px auto;
+  }
+  .manageInventory_btn {
+    width: 20%;
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(10, 10, 10);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgb(12, 12, 12);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-top: 8rem;
+  }
+  .stock_update_right_title {
+    font-size: 3.6rem;
+    font-weight: 600;
+    width: 65%;
+  }
+  .stock_update_right_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 90%;
+  }
+  .copyright-text {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .payment-img {
+    width: 35% !important;
+    margin-top: 0 !important;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .container {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 57.5%;
+  }
+  .stock_update_section .stock_update_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    width: 50%;
+    margin: 30px auto;
+  }
+  .manageInventory_btn {
+    width: 20%;
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(10, 10, 10);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgb(12, 12, 12);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-top: 8rem;
+  }
+  .stock_update_right_title {
+    font-size: 3.6rem;
+    font-weight: 600;
+    width: 65%;
+  }
+  .stock_update_right_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .copyright-text {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .payment-img {
+    width: 35% !important;
+    margin-top: 0 !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .container {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 55.5%;
+  }
+  .stock_update_section .stock_update_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    width: 50%;
+    margin: 30px auto;
+  }
+  .manageInventory_btn {
+    width: 24%;
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(10, 10, 10);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgb(12, 12, 12);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-top: 8rem;
+  }
+  .stock_update_right_title {
+    font-size: 3.6rem;
+    font-weight: 600;
+    width: 65%;
+  }
+  .stock_update_right_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .copyright-text {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .payment-img {
+    width: 40% !important;
+    margin-top: 0 !important;
+  }
+}
+@media screen and (min-width: 1020px) and (max-width: 1199px) {
+  .container {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 53.5%;
+  }
+  .stock_update_section .stock_update_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    width: 50%;
+    margin: 30px auto;
+  }
+  .manageInventory_btn {
+    width: 24%;
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(10, 10, 10);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgb(12, 12, 12);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-top: 8rem;
+  }
+  .stock_update_right_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 90%;
+  }
+  .copyright-text {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .payment-img {
+    width: 40% !important;
+    margin-top: 0 !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1019px) {
+  .container {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 52.5%;
+  }
+  .stock_update_section .stock_update_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    width: 50%;
+    margin: 30px auto;
+  }
+  .manageInventory_btn {
+    width: 25%;
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(10, 10, 10);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgb(12, 12, 12);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-top: 8rem;
+  }
+  .copyright-text {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .payment-img {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 50.5%;
+  }
+  .stock_update_section .stock_update_title {
+    font-size: 4.6rem;
+    font-weight: 700;
+    width: 45%;
+    margin: 0 auto;
+  }
+  .stock_update_section .stock_update_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    width: 55%;
+    margin: 30px auto;
+  }
+  .stockCard {
+    width: 100%;
+    margin: 0 auto;
+    height: 95%;
+    margin-top: 5rem;
+    box-shadow: 0px 6px 10px -5px rgba(3, 85, 112, 0.5);
+    border-radius: 10px;
+    background-color: transparent;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+  }
+  .stockCard_title {
+    font-size: 3rem;
+    color: #000;
+    font-weight: 600;
+  }
+  .stockCard_text {
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(46, 46, 46);
+    margin-top: 15px;
+  }
+  .stockCard_price {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .stockCard_suplierName {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .stockCard_quantity {
+    margin-top: 15px;
+    font-size: 2.4rem;
+  }
+  .stock_update_right {
+    margin-top: 60px;
+  }
+  .stock_update_right_title {
+    font-size: 3.6rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .stock_update_right_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .total_stock_quantity {
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .stock_update_right .deliverd_btn {
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(12, 12, 12);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #000;
+    position: relative;
+    z-index: 1;
+    margin-top: 4rem;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+  .restock-items {
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .stock_update_right_restock .restock_form {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .manageInventory_btn {
+    width: 32%;
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(10, 10, 10);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgb(12, 12, 12);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-top: 5rem;
+  }
+  .payment-img {
+    width: 50% !important;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .container {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 49.5%;
+  }
+  .stock_update_section .stock_update_title {
+    font-size: 4.6rem;
+    font-weight: 700;
+    width: 61%;
+    margin: 0 auto;
+  }
+  .stock_update_section .stock_update_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    width: 55%;
+    margin: 30px auto;
+  }
+  .stockCard {
+    width: 100%;
+    margin: 0 auto;
+    height: 95%;
+    margin-top: 5rem;
+    box-shadow: 0px 6px 10px -5px rgba(3, 85, 112, 0.5);
+    border-radius: 10px;
+    background-color: transparent;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+  }
+  .stockCard_title {
+    font-size: 3rem;
+    color: #000;
+    font-weight: 600;
+  }
+  .stockCard_text {
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(46, 46, 46);
+    margin-top: 15px;
+  }
+  .stockCard_price {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .stockCard_suplierName {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .stockCard_quantity {
+    margin-top: 15px;
+    font-size: 2.4rem;
+  }
+  .stock_update_right {
+    margin-top: 60px;
+  }
+  .stock_update_right_title {
+    font-size: 3.6rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .stock_update_right_subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .total_stock_quantity {
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .stock_update_right .deliverd_btn {
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(12, 12, 12);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #000;
+    position: relative;
+    z-index: 1;
+    margin-top: 4rem;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+  .restock-items {
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .stock_update_right_restock .restock_form {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .manageInventory_btn {
+    width: 45%;
+    padding: 6px 32px 6px 32px;
+    border: none;
+    color: rgb(10, 10, 10);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgb(12, 12, 12);
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-top: 5rem;
+  }
+  .payment-img {
+    width: 55%;
+    margin-top: 20px;
+  }
+}
 @media screen and (min-width: 480px) and (max-width: 575px) {
   .container {
     padding: 0 4rem;
@@ -327,6 +850,8 @@
   .stock_update_section .stock_update_title {
     font-size: 4rem;
     font-weight: 700;
+    width: 83%;
+    margin: 0 auto;
   }
   .stock_update_section .stock_update_subtitle {
     font-size: 2.2rem;
@@ -416,7 +941,7 @@
     text-align: center;
   }
   .manageInventory_btn {
-    width: 72%;
+    width: 71%;
     padding: 6px 32px 6px 32px;
     border: none;
     color: rgb(10, 10, 10);

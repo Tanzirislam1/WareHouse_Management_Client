@@ -3,6 +3,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { toast } from 'react-toastify';
 import '../../../src/Style/AddInventory/AddInventory.scss';
 import auth from '../../Firebase/Firebase.init';
+import '../../../src/Style/StockUpdate/StockUpdate.scss';
 
 const AddInventory = () => {
     const [user] = useAuthState(auth);
