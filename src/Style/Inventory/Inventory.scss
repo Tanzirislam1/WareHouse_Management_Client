@@ -102,3 +102,798 @@
         text-align: center;
     }
 }
+
+
+// responsive breakpoint
+
+@media screen and (min-width: 1800px) and (max-width: 1920px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    .inventory_hero_banner {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(http://localhost:3000/static/media/pexels-erik-mclean-4062360.d84dc090ded7d60ab327.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        filter: brightness(0.8);
+    }
+
+    .inventory_hero_title {
+        font-size: 5.6rem;
+        font-weight: 600;
+        color: #fff;
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .inventory_hero_subtitle {
+        font-size: 2.2rem;
+        color: #fff;
+        font-weight: 400;
+        width: 43%;
+        margin: 0 auto;
+        margin-top: 2.5rem;
+    }
+
+    .inventory_hero_btn {
+        width: 18%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 4rem;
+        background-color: transparent;
+    }
+
+    .inventory_title {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .inventory_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 55%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .payment-img {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1799px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 58.5%;
+    }
+
+    .inventory_hero_banner {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(http://localhost:3000/static/media/pexels-erik-mclean-4062360.d84dc090ded7d60ab327.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        filter: brightness(0.8);
+    }
+
+    .inventory_hero_title {
+        font-size: 5.6rem;
+        font-weight: 600;
+        color: #fff;
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .inventory_hero_subtitle {
+        font-size: 2.2rem;
+        color: #fff;
+        font-weight: 400;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 2.5rem;
+    }
+
+    .inventory_hero_btn {
+        width: 18%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 4rem;
+        background-color: transparent;
+    }
+
+    .inventory_title {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .inventory_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 55%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .payment-img {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 55.5%;
+    }
+
+    .inventory_hero_banner {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(http://localhost:3000/static/media/pexels-erik-mclean-4062360.d84dc090ded7d60ab327.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        filter: brightness(0.8);
+    }
+
+    .inventory_hero_title {
+        font-size: 5.6rem;
+        font-weight: 600;
+        color: #fff;
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .inventory_hero_subtitle {
+        font-size: 2.2rem;
+        color: #fff;
+        font-weight: 400;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 2.5rem;
+    }
+
+    .inventory_hero_btn {
+        width: 20%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 4rem;
+        background-color: transparent;
+    }
+
+    .inventory_title {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .inventory_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 55%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .payment-img {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 53.5%;
+    }
+
+    .inventory_hero_banner {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(http://localhost:3000/static/media/pexels-erik-mclean-4062360.d84dc090ded7d60ab327.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        filter: brightness(0.8);
+    }
+
+    .inventory_hero_title {
+        font-size: 5rem;
+        font-weight: 600;
+        color: #fff;
+        width: 47%;
+        margin: 0 auto;
+    }
+
+    .inventory_hero_subtitle {
+        font-size: 2.2rem;
+        color: #fff;
+        font-weight: 400;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2.5rem;
+    }
+
+    .inventory_hero_btn {
+        width: 20%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 4rem;
+        background-color: transparent;
+    }
+
+    .inventory_title {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .inventory_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 55%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .payment-img {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1199px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 51.5%;
+    }
+
+    .inventory_hero_banner {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(http://localhost:3000/static/media/pexels-erik-mclean-4062360.d84dc090ded7d60ab327.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        filter: brightness(0.8);
+    }
+
+    .inventory_hero_title {
+        font-size: 5rem;
+        font-weight: 600;
+        color: #fff;
+        width: 47%;
+        margin: 0 auto;
+    }
+
+    .inventory_hero_subtitle {
+        font-size: 2.2rem;
+        color: #fff;
+        font-weight: 400;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2.5rem;
+    }
+
+    .inventory_hero_btn {
+        width: 23%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 4rem;
+        background-color: transparent;
+    }
+
+    .inventory_title {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .inventory_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 55%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .payment-img {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width: 1019px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 49.5%;
+    }
+
+    .inventory_hero_banner {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(http://localhost:3000/static/media/pexels-erik-mclean-4062360.d84dc090ded7d60ab327.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        filter: brightness(0.8);
+    }
+
+    .inventory_hero_title {
+        font-size: 5rem;
+        font-weight: 600;
+        color: #fff;
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    .inventory_hero_subtitle {
+        font-size: 2.2rem;
+        color: #fff;
+        font-weight: 400;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 2.5rem;
+    }
+
+    .inventory_hero_btn {
+        width: 23%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 4rem;
+        background-color: transparent;
+    }
+
+    .inventory_title {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .inventory_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 55%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .payment-img {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 47.5%;
+    }
+
+    .inventory_hero_banner {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(http://localhost:3000/static/media/pexels-erik-mclean-4062360.d84dc090ded7d60ab327.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        filter: brightness(0.8);
+    }
+
+    .inventory_hero_title {
+        font-size: 5rem;
+        font-weight: 600;
+        color: #fff;
+        width: 53%;
+        margin: 0 auto;
+    }
+
+    .inventory_hero_subtitle {
+        font-size: 2.2rem;
+        color: #fff;
+        font-weight: 400;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 2.5rem;
+    }
+
+    .inventory_hero_btn {
+        width: 25%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 4rem;
+        background-color: transparent;
+    }
+
+    .inventory_title {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .inventory_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 55%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .payment-img {
+        width: 65%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width: 767px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 47.5%;
+    }
+
+    .inventory_hero_banner {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(http://localhost:3000/static/media/pexels-erik-mclean-4062360.d84dc090ded7d60ab327.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        filter: brightness(0.8);
+    }
+
+    .inventory_hero_title {
+        font-size: 5rem;
+        font-weight: 600;
+        color: #fff;
+        width: 71%;
+        margin: 0 auto;
+    }
+
+    .inventory_hero_subtitle {
+        font-size: 2.2rem;
+        color: #fff;
+        font-weight: 400;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 2.5rem;
+    }
+
+    .inventory_hero_btn {
+        width: 32%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 4rem;
+        background-color: transparent;
+    }
+
+    .inventory_title {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .inventory_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .payment-img {
+        width: 65%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width: 575px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 45.5%;
+    }
+
+    .inventory_hero_banner {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(http://localhost:3000/static/media/pexels-erik-mclean-4062360.d84dc090ded7d60ab327.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        filter: brightness(0.8);
+    }
+
+    .inventory_hero_title {
+        font-size: 5rem;
+        font-weight: 600;
+        color: #fff;
+        width: 73%;
+        margin: 0 auto;
+    }
+
+    .inventory_hero_subtitle {
+        font-size: 2.2rem;
+        color: #fff;
+        font-weight: 400;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 2.5rem;
+    }
+
+    .inventory_hero_btn {
+        width: 32%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 4rem;
+        background-color: transparent;
+    }
+
+    .inventory_title {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .inventory_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .copyright-text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .payment-img {
+        width: 65%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width: 479px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    html {
+        font-size: 45.5%;
+    }
+
+    .inventory_hero_banner {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(http://localhost:3000/static/media/pexels-erik-mclean-4062360.d84dc090ded7d60ab327.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        filter: brightness(0.8);
+    }
+
+    .inventory_hero_title {
+        font-size: 5rem;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .inventory_hero_subtitle {
+        font-size: 2.2rem;
+        color: #fff;
+        font-weight: 400;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 2.5rem;
+    }
+
+    .inventory_hero_btn {
+        width: 46%;
+        padding: 6px 32px 6px 32px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        transition: ease-out 0.3s;
+        font-size: 18px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 3rem;
+        background-color: transparent;
+    }
+
+    .inventory_title {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .inventory_subtitle {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #000;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+}

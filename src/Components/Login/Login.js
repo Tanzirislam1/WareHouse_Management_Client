@@ -42,9 +42,9 @@ const Login = () => {
     let from = location?.state?.from?.pathname || "/";
 
     /* after user login then get the token then navigate  */
-    // if (user) {
-    //     navigate(from, { replace: true });
-    // } 
+    if (user) {
+        navigate(from, { replace: true });
+    } 
 
     if (googleUser) {
         return (
@@ -125,7 +125,7 @@ const Login = () => {
             localStorage.setItem('accessToken', data.accessToken);
         }
         event.target.reset();
-        navigate(from, { replace: true });
+        // navigate(from, { replace: true });
     }
 
     const handlePasswordReset = async (event) => {

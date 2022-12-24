@@ -27,7 +27,7 @@ const ManageInventory = () => {
                         <p className='manage_inventories_subtitle'>Organizations from small to large businesses can make use of inventory management to track their flow of goods, Properly managing inventory is an important aspect of any retail or wholesale business.</p>
                     </div>
 
-                    <div className='row gx-5 manage_inventories'>
+                    <div className='row gx-5 manage_inventories row-cols-1 row-cols-sm-1 row-cols-md-2'>
                         {
                             inventory.map(manageItem => <ManageInventoryItem key={manageItem._id} manageItem={manageItem}></ManageInventoryItem>)
                         }

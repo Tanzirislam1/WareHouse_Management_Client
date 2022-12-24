@@ -13,7 +13,7 @@ const Inventory = () => {
                     <div className="container">
                         <div className="inventory_hero_texts">
                             <h2 className="inventory_hero_title">
-                                Discover autoRoyal premium cars
+                                Discover autoZone premium cars
 
                             </h2>
                             <p className="inventory_hero_subtitle">From researching the vehicle you want to test driving your options, we’re here to help with our knowledgeable sales staff and an impressive selection of cars, trucks, and SUVs.!</p>
@@ -27,7 +27,7 @@ const Inventory = () => {
                 <div className="container">
                     <h2 className='inventory_title'>Our Inventory</h2>
                     <p className="inventory_subtitle">We provides always our best services for our clients and always try to achieve our client's trust and satisfaction.</p>
-                    <div className="row gx-5">
+                    <div className="row gx-5 row-cols-1 row-cols-sm-1 row-cols-md-2">
                         {
                             inventory.map(item => <InventoryItem key={item.id} item={item}></InventoryItem>)
                         }
