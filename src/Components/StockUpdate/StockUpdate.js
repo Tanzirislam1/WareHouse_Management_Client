@@ -18,7 +18,7 @@ const StockUpdate = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/inventoryItems/${id}`)
+        fetch(`https://warehouse-server-nu.vercel.app/inventoryItems/${id}`)
             .then(res => res.json())
             .then(data => setStockItem(data))
     }, [id]);
@@ -26,7 +26,7 @@ const StockUpdate = () => {
     const handleDelivery = (itemQuantity) => {
         console.log(itemQuantity);
         const update = { quantity: itemQuantity - 1 };
-        const url = `http://localhost:5000/stockItem/${id}`;
+        const url = `https://warehouse-server-nu.vercel.app/stockItem/${id}`;
         console.log(url);
         fetch(url, {
             method: 'PUT',
@@ -55,7 +55,7 @@ const StockUpdate = () => {
         const RestockItem = { quantity: quantity + newQuantity };
 
         // send data to the server
-        const url = `http://localhost:5000/stockItems/${id}`;
+        const url = `https://warehouse-server-nu.vercel.app/stockItems/${id}`;
         fetch(url, {
             method: "PUT",
             headers: {

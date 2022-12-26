@@ -166,4 +166,262 @@
 }
 .login_section .google_login_btn span {
   font-size: 1.8rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 50.5%;
+  }
+  .login_section .login_form {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+    width: 65%;
+    margin: 0 auto;
+    padding: 4rem;
+  }
+  .login_section .login_form_label {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #000;
+  }
+  .login_section .login_form_input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #525252;
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: transparent;
+  }
+  .login_section .login_form_bottom {
+    display: flex;
+    align-items: center;
+  }
+  .login_section .login_form .forget_password {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2rem;
+  }
+  .login_section .google_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .login_section .login_form_bottom-text {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .login_section .login_form_bottom-login {
+    font-size: 2rem;
+  }
+  .login_section .google_login_btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 27px;
+    width: 90%;
+    border-radius: 100px;
+    border: 1px solid #C7C7C7;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .container {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 45.5%;
+  }
+  .login_section .login_form {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem;
+  }
+  .login_section .login_form_label {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #000;
+  }
+  .login_section .login_form_input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #525252;
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: transparent;
+  }
+  .login_section .login_form_bottom {
+    display: flex;
+    align-items: center;
+  }
+  .login_section .login_form .forget_password {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2rem;
+  }
+  .login_section .google_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .login_section .login_form_bottom-text {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .login_section .login_form_bottom-login {
+    font-size: 2rem;
+  }
+  .login_section .google_login_btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 27px;
+    width: 90%;
+    border-radius: 100px;
+    border: 1px solid #C7C7C7;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 575px) {
+  .container {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 45.5%;
+  }
+  .login_section .login_form {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 4rem;
+  }
+  .login_section .login_form_label {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #000;
+  }
+  .login_section .login_form_input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #525252;
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: transparent;
+  }
+  .login_section .login_form_bottom {
+    display: flex;
+    align-items: center;
+  }
+  .login_section .login_form .forget_password {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2rem;
+  }
+  .login_section .google_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .login_section .login_form_bottom-text {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .login_section .login_form_bottom-login {
+    font-size: 2rem;
+  }
+  .login_section .google_login_btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 27px;
+    width: 90%;
+    border-radius: 100px;
+    border: 1px solid #C7C7C7;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 479px) {
+  .container {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 45.5%;
+  }
+  .login_section .login_form {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 4rem;
+  }
+  .login_section .login_form_label {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #000;
+  }
+  .login_section .login_form_input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #525252;
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: transparent;
+  }
+  .login_section .login_form_bottom {
+    display: block;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .login_section .login_form .forget_password {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2rem;
+  }
+  .login_section .login_form_bottom-text {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0;
+    margin-right: 5px;
+  }
+  .login_section .login_form_bottom-login {
+    font-size: 2rem;
+  }
+  .login_section .google_login_btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 27px;
+    width: 90%;
+    border-radius: 100px;
+    border: 1px solid #C7C7C7;
+  }
 }/*# sourceMappingURL=Login.css.map */

@@ -27,7 +27,7 @@ const AddInventory = () => {
         const addNewItem = { image, name, description, price, quantity, suplierName, email };
         console.log(addNewItem);
 
-        const url = `http://localhost:5000/addItem`;
+        const url = `https://warehouse-server-nu.vercel.app/addItem`;
         fetch(url, {
             method: "POST",
             headers: {

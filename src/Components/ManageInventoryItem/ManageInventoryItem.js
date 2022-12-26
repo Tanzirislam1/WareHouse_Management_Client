@@ -9,7 +9,7 @@ const ManageInventoryItem = ({ manageItem }) => {
         // console.log('hello');
         const isConfirmed = window.confirm("are you sure want to Delete");
         if (isConfirmed === true) {
-            const url = `http://localhost:5000/deleteItem/${id}`;
+            const url = `https://warehouse-server-nu.vercel.app/deleteItem/${id}`;
             fetch(url, {
                 method: "DELETE",
                 headers: {

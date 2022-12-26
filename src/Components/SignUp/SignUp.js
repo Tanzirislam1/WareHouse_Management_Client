@@ -105,7 +105,7 @@ const SignUp = () => {
         }
 
         await createUserWithEmailAndPassword(email, password);
-        const url = `http://localhost:5000/signup`;
+        const url = `https://warehouse-server-nu.vercel.app/signup`;
         const { data } = await axios.post(url, { email });
         console.log(data);
         localStorage.setItem('accessToken', data.accessToken);

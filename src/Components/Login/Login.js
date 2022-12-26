@@ -119,7 +119,7 @@ const Login = () => {
 
         await signInWithEmailAndPassword(email, password);
         /* store token in localStorage */
-        const { data } = await axios.post('http://localhost:5000/login', { email });
+        const { data } = await axios.post('https://warehouse-server-nu.vercel.app/login', { email });
         // console.log(data);
         if(data){
             localStorage.setItem('accessToken', data.accessToken);

@@ -17,7 +17,7 @@ const MyItems = () => {
         const getMyItem = async () => {
             const email = user?.email;
             console.log(email);
-            const url = `http://localhost:5000/myItems?email=${email}`;
+            const url = `https://warehouse-server-nu.vercel.app/myItems?email=${email}`;
             /* send token in Server */
             try {
                 const { data } = await axiosPrivate.get(url, {

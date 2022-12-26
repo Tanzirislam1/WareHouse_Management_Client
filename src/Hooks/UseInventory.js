@@ -5,7 +5,7 @@ const useInventory = () => {
     // console.log(inventoryItems, 'inventory');
 
     useEffect(() => {
-        fetch('http://localhost:5000/inventoryItems')
+        fetch('https://warehouse-server-nu.vercel.app/inventoryItems')
         .then(res => res.json())
         .then(data => setInventory(data))
     }, []);
