@@ -3,6 +3,9 @@ import useInventory from '../../Hooks/UseInventory';
 import '../../Style/Home/Home.css'
 import InventoryItem from '../InventoryItem/InventoryItem';
 import { motion } from 'framer-motion';
+import 'animate.css';
+import { useEffect, useState } from 'react';
+import { FaAngleUp } from "react-icons/fa";
 
 
 const Home = () => {
@@ -11,6 +14,23 @@ const Home = () => {
     if (inventory.length) {
         inventory.length = 6;
     }
+
+    const [showTopBtn, setShowTopBtn] = useState(false);
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 400) {
+                setShowTopBtn(true);
+            } else {
+                setShowTopBtn(false);
+            }
+        });
+    }, []);
+    const goToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
 
 
     return (
@@ -21,10 +41,11 @@ const Home = () => {
                         <div className="row row-cols-1">
                             <div className="col-lg-6">
                                 <div className="hero-section_contents">
-                                    <h2 className='hero-section_title'>
+                                    <h2 className='hero-section_title animate__backInDown'>
                                         Let Us Help You to Find Your Perfect Car!</h2>
                                     <p className="hero-section_subtitle">We can help you find the best car. Check our reviews, compare models and find cars for sale.</p>
                                     <button className="hero-section_btn">Learn More</button>
+                                    
                                 </div>
                             </div>
                             <div className="col-lg-6"></div>

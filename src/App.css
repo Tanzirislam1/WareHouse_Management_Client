@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
 }
 
-html{
+html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
@@ -41,17 +41,4 @@ html{
   src: url(../public/font/Poligon-Regular.woff);
   font-display: block;
   font-weight: 400;
-}
-
-.scroll-top {
-  position: fixed;
-  bottom: 15px;
-  right: 20px;
-}
-
-.top-btn-style{
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  background-color: pink;
 }

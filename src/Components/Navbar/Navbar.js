@@ -5,7 +5,8 @@ import CustomLink from '../CustomLink/CustomLink';
 import { motion } from 'framer-motion';
 import { useAuthState, useSignOut } from 'react-firebase-hooks/auth';
 import auth from '../../Firebase/Firebase.init';
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars, FaTimes } from 'react-icons/fa';
+
 
 const Navbar = () => {
 
