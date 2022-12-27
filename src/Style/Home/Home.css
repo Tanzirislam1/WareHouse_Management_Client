@@ -1,5 +1,8 @@
 /* reuse Color */
 /* mixin */
+.hero-section {
+  margin-top: 90px;
+}
 .hero-section_banner {
   background-image: url(../../../public/img/hero-bg.jpg);
   background-size: cover;
@@ -41,6 +44,7 @@
   z-index: 1;
   margin-top: 2rem;
   background-color: transparent;
+  display: block;
 }
 .hero-section_btn a {
   text-decoration: none;

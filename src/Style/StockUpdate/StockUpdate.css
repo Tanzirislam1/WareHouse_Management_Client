@@ -2,6 +2,7 @@
 /* mixin */
 .stock_update_section {
   padding: 5rem 0;
+  margin-top: 90px;
 }
 .stock_update_section .stock_update_texts {
   text-align: center;

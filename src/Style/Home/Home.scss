@@ -1,7 +1,8 @@
 @import '../../../src/Variables/Variables.scss';
 
 .hero-section {
-
+    margin-top: 90px;
+    
     &_banner {
         background-image: url(../../../public/img/hero-bg.jpg);
         background-size: cover;
@@ -47,6 +48,7 @@
         z-index: 1;
         margin-top: 2rem;
         background-color: transparent;
+        display: block;
 
         a {
             text-decoration: none;

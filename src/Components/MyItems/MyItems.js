@@ -6,6 +6,7 @@ import '../../../src/Style/ManageItems/ManageItems.scss';
 import { useNavigate } from 'react-router-dom';
 import { signOut } from 'firebase/auth';
 import axiosPrivate from '../../api/axiosPrivate';
+import '../../../src/Style/MyItems/MyItems.scss';
 
 const MyItems = () => {
     const [myItems, setMyItems] = useState([]);

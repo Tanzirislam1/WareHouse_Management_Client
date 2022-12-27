@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# WareHouse_Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+live link [Create React App](https://github.com/facebook/create-react-app).
+
+** Bootstrap
+** React-router-dom
+** React-firebase-hooks
+** Axios
+** Framer Motion
+
 
 ## Available Scripts
 
@@ -67,5 +74,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# WareHouse_Management_Client
