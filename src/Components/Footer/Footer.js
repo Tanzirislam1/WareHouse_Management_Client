@@ -1,15 +1,36 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../../src/Style/Footer/Footer.scss';
 import '../../../src/Style/Home/Home.scss';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"></link>
 
 const Footer = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 2000,
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: true, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99,
+            offset: 150, // offset (in px) from the original trigger point
+            delay: 250,
+        });
+    }, []);
     return (
         <footer id="footer-section">
             <div className="footer-background">
                 <div className="container">
                     <div className="row gx-5 footer-contents row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-4">
-                        <div className="col-lg-4" data-animation="slideInRight">
+                        <div className="col-lg-4" data-aos="fade-left"
+                            data-aos-offset="150"
+                            data-aos-delay="250"
+                            data-aos-duration="1500"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="false">
                             <img className='footer-logo' src="https://i.ibb.co/wCWHkjw/autozone.png" alt="autozone" border="0" />
                             <div className="social-contents">
                                 <ul>
@@ -21,8 +42,15 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-2" data-animation="slideInUp" data-animation-delay="600ms">
-                            <div className="footer-about-us">
+                        <div className="col-lg-2"
+                        >
+                            <div className="footer-about-us"
+                                data-aos="fade-up" data-aos-offset="150"
+                                data-aos-delay="250"
+                                data-aos-duration="1500"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                data-aos-once="false">
                                 <h3 className="about-title">ABOUT US
                                 </h3>
                                 <div className="about-sub-titles">
@@ -35,7 +63,12 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2" data-animation="slideInDown" data-animation-delay="900ms">
+                        <div className="col-lg-2" data-aos="fade-down" data-aos-offset="150"
+                            data-aos-delay="250"
+                            data-aos-duration="1500"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="false">
                             <div className="footer-help-us">
                                 <h3 className="help-title">HELP</h3>
                                 <div className="help-sub-titles">
@@ -46,7 +79,12 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4" data-aos="fade-right" data-aos-offset="150"
+                            data-aos-delay="250"
+                            data-aos-duration="1500"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="false">
                             <div className="mail-box">
                                 <img src={require("../../../src/image/mail-box.png")} alt="" className="mail-box-icon" />
                                 <h3 className="mail-box-title">Sign up for Newsleter</h3>
