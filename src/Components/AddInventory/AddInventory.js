@@ -49,27 +49,82 @@ const AddInventory = () => {
     return (
         <section className="add-inventory-form">
             <div className='container'>
-                <h2 className='add-item-title'>Add a New Inventory Item</h2>
+                <h2 className='add-item-title'
+                    data-aos="fade-up"
+                    data-aos-offset="150"
+                    data-aos-delay="250"
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false">Add a New Inventory Item</h2>
                 <form className='add-item-form' action='/myItems' onSubmit={handleFormSubmit}>
-                    <div className="input-group">
+                    <div className="input-group"
+                        data-aos="fade-up"
+                        data-aos-offset="150"
+                        data-aos-delay="500"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false">
                         <input className='img-field' type="url" name="imageUrl" id="" placeholder='Add Image Url' required />
                     </div>
-                    <div className="input-group">
+                    <div className="input-group"
+                        data-aos="fade-up"
+                        data-aos-offset="150"
+                        data-aos-delay="750"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false">
                         <input className='product-name-field' type="text" name="productName" id="" placeholder='Product Name' required />
                     </div>
-                    <div className="input-group">
+                    <div className="input-group"
+                        data-aos="fade-up"
+                        data-aos-offset="150"
+                        data-aos-delay="1000"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false">
                         <input className='product-description-field' type="text" name="productDescription" id="" placeholder='Product Description' required />
                     </div>
-                    <div className="input-group">
+                    <div className="input-group" data-aos="fade-up"
+                        data-aos-offset="150"
+                        data-aos-delay="1250"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false">
                         <input className='product-price-field' type="number" name="productPrice" id="" placeholder='Product Price' required />
                     </div>
-                    <div className="input-group">
+                    <div className="input-group" data-aos="fade-up"
+                        data-aos-offset="150"
+                        data-aos-delay="1500"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false">
                         <input className='product-quantity-field' type="number" name="productQuantity" id="" placeholder='Product Quantity' required />
                     </div>
-                    <div className="input-group">
+                    <div className="input-group"
+                        data-aos="fade-up"
+                        data-aos-offset="150"
+                        data-aos-delay="1750"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                    >
                         <input type="text" name="productSuplierName" id="" placeholder='Suplier Name' required />
                     </div>
-                    <input className='new_item_btn' type="submit" value="Add Item" />
+                    <input
+                        data-aos="fade-up"
+                        data-aos-offset="150"
+                        data-aos-delay="2000"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false" className='new_item_btn' type="submit" value="Add Item" />
                 </form>
             </div>
         </section>

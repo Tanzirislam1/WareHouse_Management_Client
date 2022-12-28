@@ -43,7 +43,14 @@ const MyItems = () => {
         <section className="my-items-section">
             <div className='container'>
                 <div className="row">
-                    <h2 className='my-items-title'>My Items: {myItems.length}</h2>
+                    <h2 className='my-items-title'
+                        data-aos="fade-up"
+                        data-aos-offset="150"
+                        data-aos-delay="250"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false">My Items: {myItems.length}</h2>
 
                     {
                         myItems.map(myItem => <MyItem key={myItem._id} myItem={myItem}></MyItem>)

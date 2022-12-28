@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import '../../../src/Style/StockUpdate/StockUpdate.scss';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const StockUpdate = () => {
     const { id } = useParams();
@@ -15,7 +17,19 @@ const StockUpdate = () => {
     const { name, image, description, price, quantity, suplierName } = stockItem || {};
     // console.log(stockItem.quantity);
 
-
+    useEffect(() => {
+        AOS.init({
+            duration: 2000,
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: true, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99,
+            offset: 150, // offset (in px) from the original trigger point
+            delay: 250,
+        });
+    }, []);
 
     useEffect(() => {
         fetch(`https://warehouse-server-nu.vercel.app/inventoryItems/${id}`)
@@ -77,12 +91,33 @@ const StockUpdate = () => {
         <section className="stock_update_section">
             <div className='container'>
                 <div className="stock_update_texts">
-                    <h2 className='stock_update_title'> Stock management system</h2>
-                    <p className='stock_update_subtitle'>It may seem fairly simple, but getting inventory restocked is more than just placing an order with your supplier.</p>
+                    <h2 className='stock_update_title'
+                        data-aos="fade-up"
+                        data-aos-offset="150"
+                        data-aos-delay="250"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false"> Stock management system</h2>
+                    <p className='stock_update_subtitle'
+                        data-aos="fade-up"
+                        data-aos-offset="200"
+                        data-aos-delay="500"
+                        data-aos-duration="2000"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false">It may seem fairly simple, but getting inventory restocked is more than just placing an order with your supplier.</p>
                 </div>
                 <div className="row d-flex align-items-center row-cols-1 row-cols-sm-1 row-cols-md-1">
                     <div className='col-lg-6'>
-                        <div className="stockCard">
+                        <div className="stockCard"
+                            data-aos="flip-left"
+                            data-aos-offset="200"
+                            data-aos-delay="750"
+                            data-aos-duration="2000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="false">
                             <img src={image} className="stockCard-img-top stockCard_img" alt="car-img" />
                             <div className="stockCard_body">
                                 <h2 className="stockCard_title">Name: {name}</h2>
@@ -95,7 +130,14 @@ const StockUpdate = () => {
                     </div>
 
                     <div className="col-lg-6">
-                        <div className='stock_update_right'>
+                        <div className='stock_update_right'
+                            data-aos="fade-right"
+                            data-aos-offset="200"
+                            data-aos-delay="1000"
+                            data-aos-duration="2000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="false">
                             <h2 className='stock_update_right_title'>Automate your inventory restocking</h2>
                             <p className='stock_update_right_subtitle'>restocking is the process of replenishing stock to make sure you have enough of a given product on hand to meet consumer demand. Depending on how many SKUs you sell, you might need to take the inventory restocking process a step further. Having an understanding of what items are selling faster than others can help you optimize and restock inventory based on demand.
                             </p>
@@ -122,7 +164,15 @@ const StockUpdate = () => {
                         </div>
                     </div>
 
-                    <Link style={{ textAlign: 'center' }} to="/manageInventory">
+                    <Link
+                        data-aos="fade-up"
+                        data-aos-offset="200"
+                        data-aos-delay="500"
+                        data-aos-duration="2000"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                        style={{ textAlign: 'center' }} to="/manageInventory">
                         <button className='manageInventory_btn'>Manage Inventories</button>
                     </Link>
                 </div>
