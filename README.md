@@ -1,6 +1,6 @@
 # WareHouse_Management
 
-# my live site: [AutoZone](https://incomparable-creponne-d7482c.netlify.app/).
+# my live site: [AutoZone](https://papaya-buttercream-509bc9.netlify.app/).
 # Client Site Code: [AutoZone](https://github.com/Tanzirislam1/WareHouse_Management_Client)
 # Server Site Code: [AutoZone](https://github.com/Tanzirislam1/WareHouse_Management_Server)
 
