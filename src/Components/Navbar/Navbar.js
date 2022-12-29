@@ -45,7 +45,7 @@ const Navbar = () => {
 
     return (
         <div className='header'>
-            <nav className='navbar'>
+            <nav className='navbar navbar-expand-lg'>
                 <div className="container">
                     <motion.a className="navbar-brand" to="/"
                         initial={{ opacity: 0 }}

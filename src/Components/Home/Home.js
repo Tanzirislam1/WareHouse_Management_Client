@@ -270,9 +270,6 @@ const Home = () => {
             </section>
 
 
-            {/* Responsive Testimonial Carousel using OwlCarousel with Next and Previous Preview */}
-
-
         </div>
     );
 };

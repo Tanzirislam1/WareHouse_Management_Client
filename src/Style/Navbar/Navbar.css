@@ -8,7 +8,6 @@
   left: 0;
   z-index: 999;
   transition: 0.3s ease-in;
-  overflow: hidden;
   background-color: rgb(135, 51, 255);
 }
 
@@ -17,6 +16,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 
 .navbar-nav ul {
@@ -96,11 +96,10 @@
 
 @media screen and (max-width: 991px) {
   .header {
-    max-width: 100%;
     background-color: rgb(135, 51, 255);
   }
   .header .navbar {
-    max-width: 100%;
+    width: 100%;
   }
   .header .nav-menu {
     display: flex;
@@ -131,7 +130,7 @@
     font-size: 1.25rem;
     text-decoration: none;
     white-space: nowrap;
-    flex: max-content;
+    flex-grow: 1;
   }
   .hamburger {
     display: block;

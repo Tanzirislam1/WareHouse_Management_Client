@@ -15,6 +15,7 @@ import Blog from './Components/Blog/Blog';
 import NotFound from './Components/NotFound/NotFound';
 import Footer from './Components/Footer/Footer';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
+import '../src/App.css';
 
 
 function App() {
