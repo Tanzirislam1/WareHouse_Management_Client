@@ -12,7 +12,6 @@ import { useEffect } from 'react';
 
 
 const Navbar = () => {
-
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
 
@@ -22,7 +21,7 @@ const Navbar = () => {
     const location = useLocation();
     const [user] = useAuthState(auth);
     const [signOut] = useSignOut(auth);
-    console.log(user);
+    // console.log(user);
 
     useEffect(() => {
         AOS.init({
@@ -57,13 +56,13 @@ const Navbar = () => {
                         }}
                     >
                         <img className='logo'
-                        data-aos="zoom-in"
-                        data-aos-delay="100"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out"
-                        data-aos-mirror="true"
-                        data-aos-once="false"
-                        data-aos-anchor-placement="top-center" src="https://i.ibb.co/wCWHkjw/autozone.png" alt="autozone" border="0" />
+                            data-aos="zoom-in"
+                            data-aos-delay="100"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="false"
+                            data-aos-anchor-placement="top-center" src="https://i.ibb.co/wCWHkjw/autozone.png" alt="autozone" border="0" />
                     </motion.a>
 
                     <div className='hamburger' onClick={handleClick}>
@@ -95,13 +94,13 @@ const Navbar = () => {
 
                             <li className='nav-item'>
                                 <CustomLink
-                                data-aos="fade-down"
-                                data-aos-delay="200"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out"
-                                data-aos-mirror="true"
-                                data-aos-once="false"
-                                data-aos-anchor-placement="top-center"
+                                    data-aos="fade-down"
+                                    data-aos-delay="200"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in-out"
+                                    data-aos-mirror="true"
+                                    data-aos-once="false"
+                                    data-aos-anchor-placement="top-center"
                                     onClick={closeMenu}
                                     className="nav-link"
                                     to="/inventory"
@@ -114,13 +113,13 @@ const Navbar = () => {
 
                             <li className='nav-item'>
                                 <CustomLink
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out"
-                                data-aos-mirror="true"
-                                data-aos-once="false"
-                                data-aos-anchor-placement="top-center"
+                                    data-aos="fade-up"
+                                    data-aos-delay="300"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in-out"
+                                    data-aos-mirror="true"
+                                    data-aos-once="false"
+                                    data-aos-anchor-placement="top-center"
                                     onClick={closeMenu}
                                     className="nav-link"
                                     to="/blog"
@@ -134,40 +133,40 @@ const Navbar = () => {
                             {/* if user login then show this route */}
                             {user && <li className="nav-item">
                                 <CustomLink
-                                data-aos="fade-down"
-                                data-aos-delay="400"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out"
-                                data-aos-mirror="true"
-                                data-aos-once="false"
-                                data-aos-anchor-placement="top-center"
-                                 className="nav-link" to="/manageInventory">manage inventory</CustomLink>
-                            </li>}
-
-                            {
-                                user && <li className="nav-item">
-                                    <CustomLink 
-                                    data-aos="fade-up"
-                                    data-aos-delay="500"
+                                    data-aos="fade-down"
+                                    data-aos-delay="400"
                                     data-aos-duration="1000"
                                     data-aos-easing="ease-in-out"
                                     data-aos-mirror="true"
                                     data-aos-once="false"
                                     data-aos-anchor-placement="top-center"
-                                    className="nav-link" to="/addInventory">Add inventory</CustomLink>
+                                    className="nav-link" to="/manageInventory">manage inventory</CustomLink>
+                            </li>}
+
+                            {
+                                user && <li className="nav-item">
+                                    <CustomLink
+                                        data-aos="fade-up"
+                                        data-aos-delay="500"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in-out"
+                                        data-aos-mirror="true"
+                                        data-aos-once="false"
+                                        data-aos-anchor-placement="top-center"
+                                        className="nav-link" to="/addInventory">Add inventory</CustomLink>
                                 </li>
                             }
                             {
                                 user && <li className="nav-item">
                                     <CustomLink
-                                    data-aos="fade-down"
-                                    data-aos-delay="600"
-                                    data-aos-duration="1000"
-                                    data-aos-easing="ease-in-out"
-                                    data-aos-mirror="true"
-                                    data-aos-once="false"
-                                    data-aos-anchor-placement="top-center"
-                                     className="nav-link" to="/myItems">My Items</CustomLink>
+                                        data-aos="fade-down"
+                                        data-aos-delay="600"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in-out"
+                                        data-aos-mirror="true"
+                                        data-aos-once="false"
+                                        data-aos-anchor-placement="top-center"
+                                        className="nav-link" to="/myItems">My Items</CustomLink>
                                 </li>
                             }
 
